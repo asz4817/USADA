@@ -17,8 +17,7 @@ mail = Mail(app)
 @app.route('/')
 def home():
     '''home'''
-    return "HELLO"
-    # return send_from_directory(app.static_folder, "index.html")
+    return send_from_directory(app.static_folder, "index.html")
 
 @app.route('/contact', methods=['POST', 'GET'])
 def contact():
