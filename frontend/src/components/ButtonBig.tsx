@@ -2,12 +2,13 @@ import type { ReactNode } from "react";
 
 type Props = {
   children: ReactNode;
+  colors: string;
 };
-const Button = ({children}: Props) => {
+const Button = ({children, colors="text-white bg-black"}: Props) => {
   return (
     <>
       <button type="button" 
-        className="leading-tight text-white bg-black font-bold rounded-full text-xl w-[22vw] h-[10vh] dark:bg-blue-600">
+        className={`${colors} leading-tight font-bold rounded-full text-xl w-[22vw] h-[10vh]`}>
         {children}
       </button>
 

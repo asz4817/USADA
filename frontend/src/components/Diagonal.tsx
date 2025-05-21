@@ -25,8 +25,8 @@ const Diagonal = () => {
                         Check out our 2024 Nationals Merchandise
                         </p>
 
-                        <ButtonSmall>
-                            ABOUT
+                        <ButtonSmall colors="bg-black text-white">
+                            Buy Now
                         </ButtonSmall>
                     </div>
 

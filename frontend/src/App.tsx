@@ -1,7 +1,7 @@
 import { Route, createBrowserRouter,  createRoutesFromElements, RouterProvider} from 'react-router-dom'; 
 import HomePage from './pages/HomePage';
 import MainLayout from './layout/MainLayout';
-import ContactUs from './components/ContactUs';
+import ContactUs from './pages/ContactUs';
 import Admin from './pages/Admin';
 import AboutUs from './pages/AboutUs';
 import OurMembers from './pages/OurMembers';

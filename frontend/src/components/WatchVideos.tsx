@@ -8,7 +8,7 @@ const WatchVideos = () => {
         <div className="md:w-1/3">
             <h2 className="text-4xl font-extrabold italic text-black mb-6">Watch Videos</h2>
             <Link
-            to="https://www.youtube.com/watch?v=xaldkDtXwNw&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=OTY3MTQ"
+            to="https://www.youtube.com/@usada.diabolo/playlists"
             target="_blank" 
             rel="noopener noreferrer"
             className="text-red-700 font-semibold italic flex items-center gap-2 hover:underline"
@@ -28,7 +28,7 @@ const WatchVideos = () => {
             </h3>
             <p className="text-sm text-black my-2 italic">Metuchen, New Jersey</p>
             <Link
-            to="https://www.youtube.com/watch?v=xaldkDtXwNw&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=OTY3MTQ"
+            to="http://youtube.com/watch?v=u1aSQwkuzTg&list=PLUD-ZcDf7l2q3f8iUlNlLiWjMsrILD0sr"
             target="_blank" 
             className="mt-4 border border-black rounded px-2 py-1 text-sm"
             rel="noopener noreferrer">
@@ -44,7 +44,7 @@ const WatchVideos = () => {
             </h3>
             <p className="text-sm text-black my-2 italic">East Brunswick, New Jersey</p>
             <Link
-            to="https://www.youtube.com/watch?v=xaldkDtXwNw&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=OTY3MTQ"
+            to="https://www.youtube.com/watch?v=cW1NupccODQ&list=PLUD-ZcDf7l2o2V1ruQ9MzCYS20gK1_9Er"
             target="_blank" 
             className="mt-4 border border-black rounded px-2 py-1 text-sm"
             rel="noopener noreferrer">

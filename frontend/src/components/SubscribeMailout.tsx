@@ -53,7 +53,7 @@ const SubscribeMailout = () => {
           onChange={(e) => setEmail(e.target.value)}
         /><br />
         <button  
-          className="bg-rose-800 text-white text-center h-10 w-[60%] rounded hover:bg-rose-500 mx-auto mt-2" 
+          className="bg-rose-800 text-white text-center h-10 w-[60%] rounded hover:bg-rose-700 mx-auto mt-2" 
           type="submit">Subscribe</button>
         <p className="mt-3 text-green-500">{responseMessage}</p>
 

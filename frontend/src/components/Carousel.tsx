@@ -8,10 +8,10 @@ const Carousel = () => {
         <img src = {compPhoto} className="object-cover w-full"/>
         <div className="absolute bottom-[5%] grid grid-cols-2 gap-10">
             <div>
-            <ButtonBig> About <br/> 2024 Nationals</ButtonBig>
+            <ButtonBig colors="bg-white"> About <br/> 2024 Nationals</ButtonBig>
             </div>
             <div>
-            <ButtonBig> Watch Competition <br/> Livestream </ButtonBig>
+            <ButtonBig colors="text-white border border-white border-2"> Watch Competition <br/> Livestream </ButtonBig>
             </div>
         </div>
       </section>

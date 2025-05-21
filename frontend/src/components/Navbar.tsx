@@ -55,7 +55,7 @@ const DropDown = ({children, href, DropDownContent}: DropDownProps) => {
 const Navbar = () => {
     return (
     <>
-        <nav className="border-b mx-auto z-50 flex-1 w-[85%] h-22">
+        <nav className="border-b border-dotted border-gray-200 mx-auto z-50 flex-1 w-[85%] h-22">
             <div className="flex h-full items-center">
 
                 <div className="flex justify-center md:items-stretch md:justify-start"> 
@@ -84,8 +84,15 @@ const Navbar = () => {
                         </NavLink> 
                         
                         <DropDown href="/competitions" DropDownContent={CompetitionsContent}> Competitions </DropDown>
-                        <DropDown href="/contact" DropDownContent={ContactContent}> Contact Us </DropDown>
-
+                        <NavLink 
+                            to="/contact"
+                            className="relative group inline-block"
+                        >
+                            Contact Us
+                            <span
+                                className='absolute -bottom-2 -left-1 -right-1 bg-indigo-300 h-1 transform scale-x-0 group-hover:scale-x-100 rounded-full transition-transform duration-300 ease-out'
+                            ></span>
+                        </NavLink> 
                         <NavLink
                             to="/admin"
                             className= " "
@@ -166,16 +173,7 @@ const CompetitionsContent = () => {
         </div>
     </div>
 }
-const ContactContent = () => {
-    return <div className='p-5 min-w-40 flex justify-center shadow-xl bg-white'>
-        <NavLink
-            to="contact/donate"
-            className="block text-m hover:underline whitespace-nowrap"
-        >
-            Donate
-        </NavLink>
-    </div>
-}
+
 
 
 

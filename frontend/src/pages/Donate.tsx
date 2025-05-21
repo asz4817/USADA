@@ -2,9 +2,9 @@
 const Donate = () => {
   return (
     <div className="flex flex-col justify-center">
-      <h1 className="text-5xl font-bold flex justify-center my-5">DONATE</h1> <br/>
+      <h1 className="text-center font-bold text-4xl">DONATE</h1> <br/>
 
-     <div className="flex flex-col items-center text-2xl text-center text-gray-800 space-y-2">
+     <div className="flex flex-col items-center text-xl text-center text-gray-800 space-y-2">
         <p>
           We prefer donations made via{" "}
           <a
@@ -15,7 +15,7 @@ const Donate = () => {
           >
             Zelle
           </a>{" "}
-          <br /> (usa.diabolo.association@gmail.com)
+          (usa.diabolo.association@gmail.com)
         </p>
         <p>
           or{" "}
@@ -32,19 +32,16 @@ const Donate = () => {
       </div>
     <br/>
 
-    <div className="w-1/2 mx-auto">
+    <div className="w-3/4 mx-auto">
       <p className="text-center text-xl my-10">
         Your support will greatly contribute to the success of our events. Any contribution, regardless of the amount, is immensely appreciated. Your support will not only help us host more events and create new opportunities, but also foster the growth and recognition of an amazing cultural activity. By investing in our organization you will directly impact the lives of talented individuals and inspire a new generation of diabolo players.
       </p>
       <p className="flex justify-center text-xl my-10">Thank you for considering donating to our cause.</p>
       
-      <p className="flex justify-center text-xl my-10">
+      <p className="text-center text-m italic my-10">
         USA Diabolo Association Inc. is a federally recognized 5O1c3 tax-exempt nonprofit organization. As such, all donations are tax-deductible to the fullest extent of the law. 
       </p>
     </div>
-
-
-
 
       
     </div>
