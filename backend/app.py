@@ -11,7 +11,7 @@ app.config.from_object(Config)
 cors = CORS(app, origins='*')
 
 client = MongoClient(app.config['MONGO_URI'])
-db = client.get_database()
+db = client['USADA']
 mail = Mail(app)
 
 @app.route('/')
