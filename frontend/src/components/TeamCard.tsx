@@ -1,4 +1,11 @@
-const TeamCard = ({ image, university, teamName })  => {
+interface TeamCardProps {
+  image: string;
+  university: string;
+  teamName: string;
+}
+
+
+const TeamCard = ({ image, university, teamName }: TeamCardProps)  => {
   return <div>
     <div className="flex items-start bg-white text-black p-4 rounded-md shadow-md h-36 w-full">
       <img src={image} alt={teamName} className="w-25 h-25 object-contain mr-2 mt-2" />

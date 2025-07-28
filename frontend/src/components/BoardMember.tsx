@@ -1,7 +1,14 @@
 import instagramLogo from '../assets/instagramLogo.png';
 
+interface BoardMemberProps {
+  name: string;
+  location: string;
+  role: string[]; // assuming it's a list of roles
+  image: string;
+  instagram: string;
+}
 
-const BoardMember = ({ name, location, role, image, instagram }) => {
+const BoardMember = ({ name, location, role, image, instagram }: BoardMemberProps) => {
   return (
     <div className="relative text-center flex flex-col items-center pb-8">
       <img src={image} alt={name} className="rounded-full w-48 h-48 object-cover" />

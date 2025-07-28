@@ -1,6 +1,5 @@
 
 import ContactForm from "../components/ContactForm";
-import Donate from "./Donate";
 
 
 const ContactUs = () => {

@@ -1,4 +1,3 @@
-import ButtonSmall from "../components/ButtonSmall"
 
 const TravelandLog = () => {
   return (

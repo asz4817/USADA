@@ -1,7 +1,14 @@
 import instagramLogo from '../assets/instagramLogo.png';
 
+interface LargeMemberProps {
+  name: string;
+  location: string;
+  role: string[];
+  image: string;
+  instagram: string;
+}
 
-const LargeMembers = ({ name, location, role, image, instagram }) => {
+const LargeMembers = ({ name, location, role, image, instagram }: LargeMemberProps) => {
   return (
     <div>
         
