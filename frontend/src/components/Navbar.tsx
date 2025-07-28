@@ -84,15 +84,8 @@ const Navbar = () => {
                         </NavLink> 
                         
                         <DropDown href="/competitions" DropDownContent={CompetitionsContent}> Competitions </DropDown>
-                        <NavLink 
-                            to="/contact"
-                            className="relative group inline-block"
-                        >
-                            Contact Us
-                            <span
-                                className='absolute -bottom-2 -left-1 -right-1 bg-indigo-300 h-1 transform scale-x-0 group-hover:scale-x-100 rounded-full transition-transform duration-300 ease-out'
-                            ></span>
-                        </NavLink> 
+                        <DropDown href="/contact" DropDownContent={ContactContent}> Contact Us </DropDown>
+
                         <NavLink
                             to="/admin"
                             className= " "
@@ -143,10 +136,16 @@ const CompetitionsContent = () => {
                 Structure & Logistics
             </NavLink>
             <NavLink
+                to="/competitions/1v1battle"
+                className="block text-sm hover:underline whitespace-nowrap"
+            >
+                1v1 Battle
+            </NavLink>
+            <NavLink
                 to="/competitions/scoring-and-awards"
                 className="block text-sm hover:underline whitespace-nowrap"
             >
-                Scorindg & Awards
+                Scoring & Awards
             </NavLink>
             <NavLink
                 to="/competitions/travel-and-lodging"
@@ -173,7 +172,16 @@ const CompetitionsContent = () => {
         </div>
     </div>
 }
-
+const ContactContent = () => {
+    return <div className='p-5 min-w-40 flex justify-center shadow-xl bg-white'>
+        <NavLink
+            to="contact/donate"
+            className="block text-m hover:underline whitespace-nowrap"
+        >
+            Donate
+        </NavLink>
+    </div>
+}
 
 
 

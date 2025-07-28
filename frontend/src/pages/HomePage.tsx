@@ -3,7 +3,7 @@ import RecapVideo from '../components/RecapVideo';
 import Diagonal from '../components/Diagonal';
 import WatchVideos from '../components/WatchVideos';
 import News from '../components/News';
-import SubscribeMailout from '../components/SubscribeMailout';
+import SubscribeMailout from './SubscribeMailout';
 
 
 
@@ -18,9 +18,8 @@ const HomePage = () => {
         <br />
         <WatchVideos />
         <News />
-        <br />
         <SubscribeMailout />
-        <br />
+        <br/><br/>
     </>
   )
 }

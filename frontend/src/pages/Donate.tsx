@@ -1,8 +1,8 @@
 
 const Donate = () => {
   return (
-    <div className="flex flex-col justify-center">
-      <h1 className="text-center font-bold text-4xl">DONATE</h1> <br/>
+    <div className="flex flex-col justify-center my-10">
+      <h1 className="text-center font-bold text-4xl text-purple-300">DONATE</h1> <br/>
 
      <div className="flex flex-col items-center text-xl text-center text-gray-800 space-y-2">
         <p>

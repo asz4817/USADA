@@ -6,8 +6,6 @@ import Donate from "./Donate";
 const ContactUs = () => {
     return <>
         <ContactForm />
-
-        <Donate />
     </>
 }
 
